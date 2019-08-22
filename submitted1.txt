@@ -1,0 +1,44 @@
+<%-- 
+    Document   : submitted
+    Created on : 10 Jan, 2019, 7:17:48 PM
+    Author     : SONI
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>details</title>
+    </head>
+    <body>
+        <h1>Student Details</h1>
+                              
+            Name : <%String name=request.getParameter("name1");%> 
+            <br>
+            Age : <%String age1=request.getParameter("age");%>
+            <br>
+            Gender : <%String gender=request.getParameter("gender");%>
+            <br>
+            Address
+            <br>
+            Line1 : <%String line1=request.getParameter("line1");%>
+            <br>
+            Line2 : <%String line2=request.getParameter("line2");%>
+            <br>
+            City  : <%String city=request.getParameter("city");%>
+            <br>
+            Zip Code : <%String zipcode=request.getParameter("zipcode");%>
+            <br>
+            Contact Details
+            <br>
+            Email : <%String email=request.getParameter("email");%>
+            <br>
+            Mobile NO. : <%String mobile=request.getParameter("mobile");%>
+            <br>
+            Working : <%String working=request.getParameter("working");%>
+            <br>
+            Work Experience(in Year) : <%String workexp=request.getParameter("workexp");%>
+        
+    </body>
+</html>
